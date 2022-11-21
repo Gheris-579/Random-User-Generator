@@ -1,0 +1,39 @@
+#app{
+    display: flex;
+    position: absolute;
+    top: 21%;
+    left: 36%;
+    border-radius: 23px;
+}
+img{
+    border-radius: 63px;
+    width: 174px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.card-title{
+    text-align: center;
+    font-family: "Yu Gothic UI Semilight";
+}
+
+.card-text{
+    font-size: 16px;
+    position: relative;
+    left: 60px;
+}
+#btn{
+    background: blueviolet;
+    border-radius: 21px;
+    display: flex;
+    position: relative;
+    left: 25%;
+    margin-top: 19px;
+    color: white;
+    font-weight: 900;
+    font-family: inherit;
+}
+#btn:hover{
+    box-shadow: 5px 3px grey;
+    transform: scale(0.98);
+}
